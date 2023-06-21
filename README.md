@@ -1,5 +1,3 @@
-# Sgage0.github.io
-
 # This repository is my first attempt at sharing example code used for analyzing NGS. The code was run in Linux bash shell and R. I used Subread, which is available through bioconda, and edgeR to analyze
 # changes in RNA expression. My practice data set were previously published single-cell transcriptomes, downloaded from the Sequence Read Archive (SRA). I used the Subread/featureCounts function to quantitate
 # transcription in Dbp1 knockdown and control murine cells. The function returned a dataframe with several columns, including one column with Gene names and another with ints = the number of transcripts
