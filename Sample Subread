@@ -5,4 +5,6 @@
 $ featureCounts -a referenceGenome.gtf -t exon -g gene_id -p -o counts.txt a.bam b.bam c.bam 1.bam 2.bam 3.bam
 ```
 
-<h3>featureCounts will output a dataframe of the uith a number of columns equal to the number of samples analyzed, one row for each detected transcript, and the value of each cell equal to the number of times the transcript was detected in the experiment.
+<h3># The parameters in the above example are -a precedes the annotated reference genome in .gtf format, -t for type of data to be analyzed (default is "exon"), -g groups features into metafeatures (with the default being exons grouped into gene identifiers), -p for pair-ended reads, -o precedes the output_file ("counts.txt" in the example), and arguments following the specified output.</h3>
+
+<h3># In the above example, featureCounts will output a dataframe with the file name "counts.txt" with a number of columns equal to the number of samples analyzed, one row for each detected group specified by -g, and the value of each cell equal to the number of times the transcript was detected in the experiment.</h3>
