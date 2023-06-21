@@ -1,4 +1,4 @@
-<h3># Subread, avialable at https://subread.sourceforge.net/ , is a powerful suite of analysis functions. Once installed, you establish an environment in miniconda, and run Subread functions in that environment.
+<h3># Subread, avialable at https://subread.sourceforge.net/ , is a powerful suite of analysis functions. Once installed, you establish an environment in miniconda, and run Subread functions in that environment.</h3>
 <h3># For instance, after entering my "Lab" environment, I am attempting to quantitate the number of each transcript from a pair-ended sequencing transcriptome for six sample cells, three controls, a.bam, b.bam, and c.bam, as well as three knockdowns, 1.bam, 2.bam, and 3.bam:</h3>
 
 ```
