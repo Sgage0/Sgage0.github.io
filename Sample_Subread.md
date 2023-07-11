@@ -7,7 +7,7 @@ $ featureCounts -a referenceGenome.gtf -t exon -g gene_id -p -o counts.txt a.bam
 
 <h4># The parameters in the above example are -a precedes the annotated reference genome (.gtf format), -t for type of data to be analyzed (default is "exon"), -g groups features into metafeatures (with the default being exons grouped into gene identifiers), -p for pair-ended reads, -o precedes the output_file ("counts.txt" in the example), and arguments following the specified output.</h4>
 
-<h4># In the above example, featureCounts will output a .txt file, with the file name "counts.txt". The number of columns in the file is equal to the number of samples analyzed, one row for each detected group specified by -g, and the value of each cell equal to the number of times the transcript was detected in the experiment. The .txt file can easily be used as a dataframe or opened with a spreadsheet application like LibreOffice Calc after a simple extension chnage to .csv (although I do not recommend reading the .csv file, except for row names, it is difficult to follow.</h4>
+<h4># In the above example, featureCounts will output a .txt file, with the file name "counts.txt". The number of columns in the file is equal to the number of samples analyzed, one row for each detected group specified by -g, and the value of each cell equal to the number of times the transcript was detected in the experiment. The .txt file can easily be used as a dataframe or opened with a spreadsheet application like LibreOffice Calc after a simple extension chnage to .csv (although I do not recommend reading the .csv file, except for row names, it is difficult to follow).</h4>
 
 <h4># For example, the head (first four lines) of my data output from counts.txt:</h4>
 
