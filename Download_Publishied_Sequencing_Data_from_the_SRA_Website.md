@@ -7,4 +7,4 @@
 sam-dump SRR11111111 | samtools view -bS - > 1.bam
 ```
 
-<h4# The first command, sam-dump, downloads the file from the SRA website. "SRR11111111" is SRA's assigned name for the data set (presumably always an eight-digit number prefixed with SRR). Hoewver, SRA keeps the file in an easy-to-read (but not to use) .sam format. I immediately pipe the output from the download command to the samtools view command. The two arguments, "-b" and "-S", indicate the .bam output and the .sam input, respectively, and the "- >" argument label "1.bam" as the destination for the reformatted .sam data.</h4>
+<h4># The first command, sam-dump, downloads the file from the SRA website. "SRR11111111" is SRA's assigned name for the data set (presumably always an eight-digit number prefixed with SRR). Hoewver, SRA keeps the file in an easy-to-read (but not to use) .sam format. I immediately pipe the output from the download command to the samtools view command. The two arguments, "-b" and "-S", indicate the .bam output and the .sam input, respectively, and the "- >" argument label "1.bam" as the destination for the reformatted .sam data.</h4>
