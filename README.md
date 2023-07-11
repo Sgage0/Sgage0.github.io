@@ -4,4 +4,4 @@
 
 <h4># From the three test transcriptomes, three control transcriptomes, and a murine reference genome, featureCounts output six dataframes. Combined, featureCounts detected transcripts for ~10,000 genes; many were marginally expressed, while some where strongly expressed. edgeR was able to output a second dataframe, sortable by FC, PValue, and FDR. Selection for PValues < 0.05 removed approximately half the output. Subsequent selection removed transcripts in which fold change 1.500 > FC > 0.6667, reducing the output to approximately 4,500 transcripts. Both increased and decreased expression were given their own datafame output.</h4>
 
-<h4> # Examples with samtools and edgeR will be posted in the near future. Conda env will be shared shortly.</h4>
+<h4> # Examples with edgeR will be posted in the near future. Conda env will be shared shortly.</h4>
