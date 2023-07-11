@@ -8,3 +8,5 @@ $ featureCounts -a referenceGenome.gtf -t exon -g gene_id -p -o counts.txt a.bam
 <h4># The parameters in the above example are -a precedes the annotated reference genome (.gtf format), -t for type of data to be analyzed (default is "exon"), -g groups features into metafeatures (with the default being exons grouped into gene identifiers), -p for pair-ended reads, -o precedes the output_file ("counts.txt" in the example), and arguments following the specified output.</h4>
 
 <h4># In the above example, featureCounts will output a dataframe with the file name "counts.txt" with a number of columns equal to the number of samples analyzed, one row for each detected group specified by -g, and the value of each cell equal to the number of times the transcript was detected in the experiment.</h4>
+
+<h4># Subread also comes with an R compatible "Rsubread". Hoewver, I was initially practicing NGS analysis, I was advised Subread run using miniconda is able to manage larger data sets faster than Rsubread.</h4>
